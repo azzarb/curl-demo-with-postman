@@ -8,4 +8,4 @@ jobs:
     steps:
     - name: REST API with curl
       run: |
-        curl -X GET "https://learn.microsoft.com/en-us/azure/devops/cross-service/cross-service-overview?view=azure-devops"
+        curl -X GET "https://pokeapi.co/api/v2/pokemon/20"
