@@ -6,6 +6,7 @@ inputs:
     required: true
     default: '1'
 outputs:
-  description: 'the result is :'
+  apirurlresult:
+    description: 'the result is :'
     required: true
   
