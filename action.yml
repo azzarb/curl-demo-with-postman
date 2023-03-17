@@ -1,7 +1,0 @@
-name: 'Triggering the API'
-description: 'call the api using curl'
-inputs:
-  apiurl:
-    description: 'lets trigger the api'
-    required: true
-    default: '1'
