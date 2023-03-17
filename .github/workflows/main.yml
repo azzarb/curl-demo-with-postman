@@ -8,4 +8,4 @@ jobs:
     steps:
     - name: REST API with curl
       run: |
-        curl -X GET "https://pokeapi.co/api/v2/pokemon/20"
+        curl -X GET "https://ralphjsmit.com/api-endpoint-webhook-github-actions"
