@@ -5,8 +5,3 @@ inputs:
     description: 'lets trigger the api'
     required: true
     default: '1'
-outputs:
-  apirurlresult:
-    description: 'the result is :'
-    required: true
-  
