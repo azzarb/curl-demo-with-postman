@@ -17,7 +17,9 @@ jobs:
        # jq -r '.[0] | .id, .full_name' getdata.json
        # jq -r '.[1] | .owner .id' getdata.json
        jq -r '.[2] | .id ' getdata.json
+       jq -r '.[2] | .owner .id' getdata.json
        jq -r '.[2] | .owner .login' getdata.json
+       
       
     
 
