@@ -10,7 +10,8 @@ jobs:
       shell: bash
       run: |
        # curl -X GET "https://ralphjsmit.com/api-endpoint-webhook-github-actions"
-       curl -X GET "https://api.github.com/users/azzarb/repos" 
-        
+       curl -X GET "https://api.github.com/users/azzarb/repos" > ./getdata.json
+       det=$(jq -r '.[] | .name ' getdetails.json
+       echo '$det' 
     
 
