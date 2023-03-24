@@ -8,4 +8,5 @@ jobs:
     steps:
     - name: REST API with curl
       run: |
-        curl -X GET "https://ralphjsmit.com/api-endpoint-webhook-github-actions"
+       # curl -X GET "https://ralphjsmit.com/api-endpoint-webhook-github-actions"
+        curl https://api.github.com/orgs/azzarb/repos
