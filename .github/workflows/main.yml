@@ -20,7 +20,7 @@ jobs:
        #jq -r '.[2] | .owner .id' getdata.json
        #jq -r '.[2] | .owner .login' getdata.json
        jq -r '.[] | .name' getdata.json
-       jq -r '.[] | .owner .url' getdata.json
+       jq -r '.[] | .url' getdata.json
       
     
 
