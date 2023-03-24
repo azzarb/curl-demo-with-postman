@@ -12,7 +12,7 @@ jobs:
        # curl -X GET "https://ralphjsmit.com/api-endpoint-webhook-github-actions"
        curl -X GET "https://api.github.com/users/azzarb/repos" > ./getdata.json
        # jq -r '.[] | .id ' getdata.json
-       jq -r '.[0] | .id ' getdata.json
+       jq -r '.[0] | .id .full_name' getdata.json
       
     
 
