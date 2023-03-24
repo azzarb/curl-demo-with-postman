@@ -11,7 +11,7 @@ jobs:
       run: |
        # curl -X GET "https://ralphjsmit.com/api-endpoint-webhook-github-actions"
        curl -X GET "https://api.github.com/users/azzarb/repos" > ./getdata.json
-       echo "jq -r '.[] | .name ' getdata.json"
+       jq -r '.[] | .name ' getdata.json
       
     
 
